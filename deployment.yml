@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-hello
-        image: skocharlakota/flask-app:latest
+        image: raokurada/flask-app:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
